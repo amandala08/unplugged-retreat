@@ -1,0 +1,34 @@
+Header
+  -logo
+  -nav bar
+      -FAQ
+      -About
+  -headline
+  -image
+
+Main
+  -newsletter signup
+      -headline text
+      -paragraph text
+      -paragraph text
+      -email field
+      -submit button
+  -general information
+      -headline text
+      -icons
+      -paragraph text
+      -background image
+  -past retreats
+      -headline text
+      -image
+      -headline text
+      -paragraph text
+
+Footer
+  -contact
+      -headline text
+      -contact info
+  -social media
+      -headline text
+      -social icons
+  -copyright info
