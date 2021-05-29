@@ -495,12 +495,81 @@ aside {
 
 }
 
+/* =======================DESKTOP STYLES ======================= */
+
 @media only screen and (min-width: 1200px) {
   .content-wrapper {
-    width: 960px;
+    max-width: 960px;
   }
 
+  header {
+    justify-content: space-around;
+  }
+
+/* Hero */
+  .hero-area h1 {
+    width: 40%;
+  }
+
+/* Aside */
+  aside .content-wrapper {
+    justify-content: space-around;
+  }
+
+  .form-description,
+  .form {
+    width: 33%;
+  }
+
+  aside input {
+    margin: 10px 0;
+    width: 75%;
+  }
+
+/* Features */
+  .features h2 {
+    width: 55%;
+  }
+
+  .features article {
+    flex-basis: 30%;
+  }
+
+  .features .features-item-description {
+    width: 75%;
+  }
+
+/* Reviews */
+
+  .reviews article div {
+    width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+  }
+
+/* Footer */
+
+footer .copyright {
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
+
+/* ========================== ABOUT PAGE ======================= */
+
+  .mission h2,
+  .contact-section .content-wrapper h2 {
+    width: 88%;
+  }
+
+/* ========================= FAQ PAGE ========================== */
+
+  .faq h2 {
+    width: 100%;
+  }
+
 
 @media print,
   (-webkit-min-device-pixel-ratio: 1.25),
